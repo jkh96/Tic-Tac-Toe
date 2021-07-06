@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main>
+        <div class="welcome invisible">
+            <p class="welcome-text1">Welcome to the game of Tic Tac Toe.</p>
+            <p class="welcome-text2">Can you defeat your opponent?</p>
+            <div class="player-one">
+                <p>Player One</p>
+                <p>Choose your name!</p>
+                <input type="text">
+                <p>Choose your weapon!</p>
+                <button>X</button>
+                <button>O</button>
+                
+            </div>
+            <div class="player-two">
+                <p>Player Two</p>
+                <p>Choose your name!</p>
+                <input type="text">
+                <p>Choose your weapon!</p>
+                <button>X</button>
+                <button>O</button>
+                
+            </div>
+        </div>
+
+        <div class="GameBoard">
+            <div class="boxes pick" id="0"><span>X</span></div>
+            <div class="boxes pick" id="1">X</div>
+            <div class="boxes pick" id="2"></div>
+            <div class="boxes pick" id="3"><span>O</span></div>
+            <div class="boxes pick" id="4"></div>
+            <div class="boxes pick" id="5"></div>
+            <div class="boxes pick" id="6"></div>
+            <div class="boxes pick" id="7"></div>
+            <div class="boxes pick" id="8"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Created by JKH</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
